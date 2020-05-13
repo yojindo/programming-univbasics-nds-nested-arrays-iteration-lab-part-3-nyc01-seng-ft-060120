@@ -13,5 +13,5 @@ while src.length > count do
   end
   count += 1
 end
-new_string
+new_string.slice(0,new_string.length-1)
 end
